@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.contenido {
+    z-index: 2;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff3366;
+}
+
+p {
+    font-size: 20px;
+    color: #cc0066;
+}
+
+/* Corazones */
+.corazon {
+    position: fixed;
+    bottom: -10px;
+    font-size: 24px;
+    animation: subir linear forwards;
+    pointer-events: none;
+}
+
+@keyframes subir {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
