@@ -22,5 +22,5 @@ botonNo.addEventListener("mouseover", moverNo);
 
 // Ir a la segunda página
 botonSi.addEventListener("click", function() {
-    window.location.href = "../html/x.html";
+    window.location.href = "html/x.html";
 });
